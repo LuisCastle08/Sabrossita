@@ -1,0 +1,487 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+p {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+  }
+  
+
+  /*---------------------------------------------*/
+  a {
+      font-family: Poppins-Regular;
+      font-size: 14px;
+      line-height: 1.7;
+      color: #666666;
+      margin: 0px;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+  }
+  
+  a:focus {
+      outline: none !important;
+  }
+  
+  a:hover {
+      text-decoration: none;
+    color: #5B58F1;
+  }
+  
+  /*---------------------------------------------*/
+  h1,h2,h3,h4,h5,h6 {
+      margin: 0px;
+  }
+  
+  p {
+      font-family: Poppins-Regular;
+      font-size: 14px;
+      line-height: 1.7;
+      color: #666666;
+      margin: 0px;
+  }
+  
+  ul, li {
+      margin: 0px;
+      list-style-type: none;
+  }
+  
+body, html {
+	
+	font-family: Poppins-Regular, sans-serif;
+  background: #ffff88;
+  background: -moz-linear-gradient(45deg,  #ffff88 0%, #ff9700 90%);
+  background: -webkit-linear-gradient(45deg,  #ffff88 0%,#ff9700 90%);
+  background: linear-gradient(45deg,  #ffff88 0%,#ff9700 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ff9700',GradientType=1 );
+  margin: 0px !important;
+  min-height: 100vh;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+
+input:focus {
+  border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder { color: #999999; }
+input:-moz-placeholder { color: #999999; }
+input::-moz-placeholder { color: #999999; }
+input:-ms-input-placeholder { color: #999999; }
+
+textarea::-webkit-input-placeholder { color: #999999; }
+textarea:-moz-placeholder { color: #999999; }
+textarea::-moz-placeholder { color: #999999; }
+textarea:-ms-input-placeholder { color: #999999; }
+
+/*---------------------------------------------*/
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*---------------------------------------------*/
+            /*BARRA DE NAVEGACION*/
+/*---------------------------------------------*/
+.txtlogo{
+  font-size:30px;
+  color: #FF9700 !important;
+  margin: 0px;
+}
+
+.boton{
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #FF9700 !important;
+  font-size: 20px;
+}
+
+.imgperfil{
+  border-radius:100px;
+  max-width:130px;    
+  object-fit: cover;
+  background-color:#FFC733;
+  padding:10px;
+}
+
+div img .imgperfil{
+  border-radius: 100px !important;
+  object-fit: cover;
+  border-color: #333333 solid !important;
+  border-width: 10px;
+}
+
+.datos p{
+  font-size: 15px;
+  color:#000;
+}
+
+.navboton{
+  max-width:40%;
+  margin:0 10px 0 10px;
+  font-size: 15px;
+}
+
+div button .boton-a {
+  text-decoration: none !important;
+  color: white !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.txtnavbot{
+  background: #fd9e21;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div .txtnavbot a{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/*---------------------------------------------*/
+          /*FIN BARRA DE NAVEGACION*/
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+              /*MENU DE PEDIDO*/
+/*---------------------------------------------*/
+
+
+
+/*---------------------------------------------*/
+              /*MENU DE PEDIDO*/
+/*---------------------------------------------*/
+
+/*TEXTOS*/
+/*H1*/
+.h1{
+    color: #e6e6e6;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+  }
+  /*H2*/
+  .h2{
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+  }
+  /*h3*/
+  .h3{
+    color: #FF9700;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .txt{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FF9700;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .txtfoo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FF9700;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .txt_res{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    font-size: 18px;
+  }
+  
+  .contacto{
+     font-family: Poppins-Regular;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .contacto2{
+    font-family: Poppins-Regular;
+   color: #ffffff;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+ }
+  /*alineacion de textos*/
+  .align-izq{
+    text-align: left;
+  }
+
+
+ /*FLOTADORES*/ 
+ .float-left{
+   float: left;
+ }
+ .float-rigth{
+  float: right;
+}
+
+.btn-flotante {
+  font-size: 16px; /* Cambiar el tamaño de la tipografia */
+  text-transform: uppercase; /* Texto en mayusculas */
+  font-weight: bold; /* Fuente en negrita o bold */
+  color: #000000; /* Color del texto */
+  border-radius: 5px; /* Borde del boton */
+  letter-spacing: 2px; /* Espacio entre letras */
+  background-color: #ffffff; /* Color de fondo */
+  padding: 18px 30px; /* Relleno del boton */
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transition: all 300ms ease 0ms;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  text-decoration: none;
+  }
+  /*
+  .btn-flotante:hover {
+  background-color: #2c2fa5; Color de fondo al pasar el cursor 
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-7px);
+  }
+  */
+  @media only screen and (max-width: 600px) {
+  .btn-flotante {
+  font-size: 14px;
+  padding: 12px 20px;
+  bottom: 20px;
+  right: 20px;
+  }
+  }
+
+  /*FIN TEXTOS*/
+  
+  /*Barra de Navegacion*/
+
+  
+
+  /*FIN Barra de Navegacion*/
+  
+  /*FORM PEDIDO*/
+  .contenido{
+    background-color: #ffffff;
+    width: 90%;
+    margin: 25px auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px #5555555e;
+  }
+  .main-menu{
+    display:inline-block;
+    width: 100%;
+    background-color: #E87B31;
+    height: 620px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .top-menu{
+    text-align: center;
+  }
+  
+  .left-menu{
+    width: 30%;
+    float: left;
+    padding: 2%;
+  }
+  .right-menu{
+    background-color: #ffffff;
+    width: 70%;
+    float: right;
+    padding: 2%;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .imglogo{
+    max-width: 220px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  
+  .imgproducto{
+    max-width: 220px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+  
+  .inputs{
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight:bold;
+  }
+  
+  .btn-agre-eli{
+    background-color:white;
+    color:#fd9a05;
+    font-weight:bold;
+    border-color:#fd9a05;
+    box-shadow:none;
+  }
+  .groupbox{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #666666;
+    border-style:solid;
+    border-width: 1.5px;
+  }
+
+  /*RADIO*/
+  input[type="radio"] + label{
+    color: #fd9a05;
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight:400;
+    border-color:#fd9a05 !important;
+  }
+  
+  input[type="radio"]:checked +  label.inputb{
+    background-color: #fd9a05 !important;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+  }
+  input[type="radio"] +  label.inputb:hover{
+    background-color: #e9e9e9 !important;
+    color: #000;
+    border-color: none;
+  }
+  /*FIN RADIO*/
+  
+  /*CHECKBOX*/
+  
+  input[type="checkbox"] + label{
+    color: #fd9a05;
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    border-color:#fd9a05 !important;
+  }
+  
+  input[type="checkbox"]:checked +  label.inputc{
+    background-color: #fd9a05 !important;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+  }
+  input[type="checkbox"] +  label.inputc:hover{
+    background-color: #e9e9e9 !important;
+    color: #000;
+    border-color: none;
+  }
+  
+  /*FIN CHECKBOX*/
+  input[type="number"]
+  {
+      -webkit-appearance: textfield !important;
+      margin: 0;
+      -moz-appearance:textfield !important;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  
+  input[type=number] { -moz-appearance:textfield; }
+  .div-center{
+  margin: auto;
+  }
+  /*FIN FORM PEDIDO*/
+  
+  /*FOOTER*/
+    .footbg{
+      background-color:#E87B31 !important;
+    }
+  /*FOOTER*/
+  
+@media screen and (max-width:767px){
+  /*BARRA DE NAVEGACION*/
+  .hidden{
+    visibility: hidden;
+    display: none !important;
+  }
+  .txtlogo{
+    font-size:20px;
+    color: #FF9700 !important;
+    margin: 0px;
+  }
+  .boton{
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #FF9700 !important;
+    font-size: 13px;
+  }
+  .navboton{
+    max-width:40%;
+    margin:0 10px 0 10px;
+    font-size: 13px;
+  }
+  /*FIN BARRA DE NAVEGACION*/
+}
